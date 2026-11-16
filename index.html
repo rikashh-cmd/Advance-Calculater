@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Advance Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="calc">
+  <div id="history"></div>
+  <input id="display" value="0" readonly aria-label="Display">
+  <div class="keys">
+    <button data-act="clear" class="op">C</button>
+    <button data-act="back" class="op">⌫</button>
+    <button data-fn="sqrt" class="op">√</button>
+    <button data-v="/" class="op">÷</button>
+
+    <button data-fn="sin" class="fn">sin</button>
+    <button data-fn="cos" class="fn">cos</button>
+    <button data-fn="tan" class="fn">tan</button>
+    <button data-v="*" class="op">×</button>
+
+    <button data-fn="log" class="fn">log</button>
+    <button data-fn="ln" class="fn">ln</button>
+    <button data-v="^" class="fn">xʸ</button>
+    <button data-v="-" class="op">−</button>
+
+    <button data-v="7">7</button><button data-v="8">8</button><button data-v="9">9</button>
+    <button data-v="+" class="op">+</button>
+    <button data-v="4">4</button><button data-v="5">5</button><button data-v="6">6</button>
+    <button data-v="(" class="fn">(</button>
+    <button data-v="1">1</button><button data-v="2">2</button><button data-v="3">3</button>
+    <button data-v=")" class="fn">)</button>
+    <button data-v="0">0</button><button data-v=".">.</button>
+    <button data-v="%" class="fn">%</button>
+    <button data-act="eq" class="eq">=</button>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
